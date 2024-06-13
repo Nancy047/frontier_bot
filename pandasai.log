@@ -1,0 +1,1326 @@
+2024-06-13 00:11:06 [INFO] Question: give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+2024-06-13 00:11:07 [INFO] Running PandasAI with langchain_vertexai LLM...
+2024-06-13 00:11:07 [INFO] Prompt ID: 0f695297-623b-4c8d-8406-c52097eb649f
+2024-06-13 00:11:07 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-13 00:11:17 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-13 00:11:17 [INFO] Executing Step 1: CacheLookup
+2024-06-13 00:11:18 [INFO] Executing Step 2: PromptGeneration
+2024-06-13 00:11:18 [INFO] Using prompt: <dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115137159,0705_CUST_EQ/WIRE_(UNDER_WARRANTY),211_PREMISE_NETWORK,121_RELOADED_CONFIG,81_VZ_T1_PACLEC
+115195837,0409_ETHERNET_IW_W_MAINT,32_SHORTED,10_TROUBLE_CLEARED,93_STORM_WO_PROJECT#
+115183101,0233_COAX_IW_W/O_MAINT,308_RESIDENTIAL_PWR_OUT,,322_CARD_FAILURE
+</dataframe>
+<dataframe>
+dfs[1]:1659x3
+Count_of_Calls,Service_Account_number,Names
+91,00878931,"Ramaribana, Boa"
+269,00819734,"Jamaquio, John Carl"
+248,00859617,
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+,"Aquino, Jason",TechM,Irving TSO Voice,,2024-05-05 19:10:04.930,,,,0799188331,,8642632170,,,Chatbot,,Slow internet speed,Call,Unknown,FiOS,System,Phone Number,Customer Property Damage,Static IP Configuration,Redirect Customer Outside Frontier,3803538128,1375727359,Resolved-Completed,No
+"Bautista, Alexa","Nesbitt, Christopher",,,2024-05-16 16:56:03.153,,2024-05-23,I-615571077,937.0,1964976739,8.634203234020509e+16,6449116609,2024-05-31 13:52:26.730,maa269,Interactions,Troubleshooting,,,POTS,,,Voicemail,DSL,Resolved Change DNS,Where is my Tech,9502446265,7817981585,Pending-Transfer,
+"Ting, Christian Emmanuel",,IBEX,Innover LC TSO Voice,2024-05-20 22:42:50.933,2024-05-05 18:09:52.497,2024-05-14,I-616484709,980.0,4125377001,7.609477285012525e+16,1988982566,2024-05-14 14:05:11.617,add534,,Router keeps disconnecting and losing Internet,Internet,Chat,,v-fiberoptic,Copper,,,,,3715777838,8814781946,,Yes
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-618658911,S-240635554,2024-05-17 08:29:39.277,Ticket created - 6403837,v_agg954,2024-05-15 13:33:56.203,Create a ticket,FVDVR,8609177642,2024-05-03 17:49:37.983,2024-05-31 18:03:58.927,Gworkflows,"Murali, Naveenash",,,0.0,jjj282
+9413426689.0,I-616814223,S-242699884,2024-05-03 13:25:45.100,Ticket created - 6110723,rgg720,2024-05-17 08:39:49.543,Test Ok,No,1883831142,2024-05-14 17:12:44.610,2024-05-09 19:34:24.407,Gworkflows,"Samulde, John Christoper","Vergara, Janine",Prodapt,0.0,gss197
+2147310505.0,I-613465516,S-246972408,2024-05-19 13:18:07.923,Ticket created - 6110178,kcc436,2024-05-06 19:30:51.063,Create a ticket,,7968735028,2024-05-09 21:18:17.710,2024-05-16 14:03:47.757,Gworkflows,,"Santos, Aldwin Nicolai",Techm,1.0,gpp375
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/d5bf8df837ce985d4e64037c2d2f96b5,https://interactions.hellox.ai/api/recording/d1b6e05236f863924b59951561c21a79,23002-2024052100000024869,83b5ca1165a9006f4a09dca96f0f6177,6548266237,0614620766,hangup,9160414580,Youtube TV Intent Transfer,,2024-05-23 16:58:50,2024-05-21 21:38:09,188429,CUT_CABLE,Channel Not Available,,,39,Spa_Unidentified,PAYMENT_HISTORY,,,6.189282759101321e+16,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-111|INTENT|BANNER_NOT_FOUND,,,B,Y,,N,False,False,ENG,TSO,,5.34,,
+https://interactions.hellox.ai/api/recording/51a7d9825a030a88a7b7c5c6e4021a98,https://interactions.hellox.ai/api/recording/5d5f9724e6ab82ec17e3031ee9e3907a,29001-2024051700000012848,3135f6d09bd7c33006f1232f7da1bfd9,8505368929,2111936305,transfer,3559180458,Intent Transfer,"T02.0 Intent Capture,T29.0 ID ANI Match Confirm Account #,T23.0 Check or Confirm Appt,T24.0 Reschedule Appointment",2024-05-02 10:25:17,2024-05-21 16:20:10,202823,RECEIVED_LETTER,Tv Connection Issues,Silence,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, LA_REQUEST_INTENT_1, OUTAGE, START, ACCT_NUMBER_CAPTURE_2, CAPTURE_INVALID_W_DIGITS, ACCT_NUMBER_REPROMPT, GH_NOISE, ACCOUNT_NUMBER_FAIL_MOVE_TO_ADDRESS, FIRST, ZIP_CAPTURE_COMMON_ZIP5_CAPTURE_INTRO, STREET_ADDRESS_CAPTURE_COMMON_ADDRESS_CAPTURE_INTRO, NO_ADDRESS_FOUND, ZIP_CAPTURE_COMMON_ZIP5_CAPTURE_REPROMPT, ACCOUNT_NUMBER_FAIL, PAYMENT_ISSUE_QUESTION, AT_HOME, ASK_STATE, LOB, TRANSFER_PROMPT_DEFAULT]",31,Spa_Residential_c,NOT_TALKING_TO_ME,INTERNET_VAGUE_FIBER_DATA,SC,30475803670428114,I-617927115,2089.0,,my tv and phone don't work,"ACCT_NUMBER_CAPTURE: 2 1 4 9 1 2 6 0z 7 0z, ACCT_NUMBER_CAPTURE: 1 2 1 4 9 1 2 6 0z 7 0z, COMMON_ZIP5_CAPTURE: 7 5 0z 5 6, COMMON_ADDRESS_CAPTURE: Not Available, APPT_FOUND: yes, REQUEST_INTENT_AGAIN: my service is not working i wanna be transferred to technical support i have an open ticket, GIGA_SMS: no",B,,N,,True,False,SPA,TSO,ACTIVE,1.0,True,Order
+https://interactions.hellox.ai/api/recording/662e6332439aa70189a3d2eaac5b258b,https://interactions.hellox.ai/api/recording/cc2d6612bee770a8dedf006f3afc54cd,29003-2024051600000043519,c7ebc867414312902abfcc2e1b1ab973,5186981804,6659075086,user hangup,3345592347,Credit Unidentified Caller,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T36.0 On File Confirm Address, Phone, Email,T09.0 Capture Mobile/ Phone Number",2024-05-23 16:22:19,2024-05-19 05:16:16,98515,AFTER_WAIT,,Ivr Passcode,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, OUTAGE, ASK_BUSINESS_ACCOUNT, FORCE_VERIFY, GH_HELLO, FORCE_VERIFY_REPROMPT, GH_NO_MATCH, NO_FORCE_VERIFY, OUTAGE_NOT_FOUND, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",25,,,CANCEL_SERVICE,VA,,I-620960739,2000.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-104|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND,relocation,"ACCOUNT: um i need to know about my telephone services and i need to know about how to hook up and then i want to month and i'm not i i having trouble to hook it up, PHONE: this is saying i need to talk to somebody, PHONE: i just said i need to talk to operator",,N,Y,Y,,,SPA,TSO,OPEN,,False,Customer
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-13 00:11:18 [INFO] Executing Step 3: CodeGenerator
+2024-06-13 00:11:28 [INFO] Prompt used:
+             You are a data analysis agent. Your main goal is to help non-technical users to analyze data. 
+<dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115137159,0705_CUST_EQ/WIRE_(UNDER_WARRANTY),211_PREMISE_NETWORK,121_RELOADED_CONFIG,81_VZ_T1_PACLEC
+115195837,0409_ETHERNET_IW_W_MAINT,32_SHORTED,10_TROUBLE_CLEARED,93_STORM_WO_PROJECT#
+115183101,0233_COAX_IW_W/O_MAINT,308_RESIDENTIAL_PWR_OUT,,322_CARD_FAILURE
+</dataframe>
+<dataframe>
+dfs[1]:1659x3
+Count_of_Calls,Service_Account_number,Names
+91,00878931,"Ramaribana, Boa"
+269,00819734,"Jamaquio, John Carl"
+248,00859617,
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+,"Aquino, Jason",TechM,Irving TSO Voice,,2024-05-05 19:10:04.930,,,,0799188331,,8642632170,,,Chatbot,,Slow internet speed,Call,Unknown,FiOS,System,Phone Number,Customer Property Damage,Static IP Configuration,Redirect Customer Outside Frontier,3803538128,1375727359,Resolved-Completed,No
+"Bautista, Alexa","Nesbitt, Christopher",,,2024-05-16 16:56:03.153,,2024-05-23,I-615571077,937.0,1964976739,8.634203234020509e+16,6449116609,2024-05-31 13:52:26.730,maa269,Interactions,Troubleshooting,,,POTS,,,Voicemail,DSL,Resolved Change DNS,Where is my Tech,9502446265,7817981585,Pending-Transfer,
+"Ting, Christian Emmanuel",,IBEX,Innover LC TSO Voice,2024-05-20 22:42:50.933,2024-05-05 18:09:52.497,2024-05-14,I-616484709,980.0,4125377001,7.609477285012525e+16,1988982566,2024-05-14 14:05:11.617,add534,,Router keeps disconnecting and losing Internet,Internet,Chat,,v-fiberoptic,Copper,,,,,3715777838,8814781946,,Yes
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-618658911,S-240635554,2024-05-17 08:29:39.277,Ticket created - 6403837,v_agg954,2024-05-15 13:33:56.203,Create a ticket,FVDVR,8609177642,2024-05-03 17:49:37.983,2024-05-31 18:03:58.927,Gworkflows,"Murali, Naveenash",,,0.0,jjj282
+9413426689.0,I-616814223,S-242699884,2024-05-03 13:25:45.100,Ticket created - 6110723,rgg720,2024-05-17 08:39:49.543,Test Ok,No,1883831142,2024-05-14 17:12:44.610,2024-05-09 19:34:24.407,Gworkflows,"Samulde, John Christoper","Vergara, Janine",Prodapt,0.0,gss197
+2147310505.0,I-613465516,S-246972408,2024-05-19 13:18:07.923,Ticket created - 6110178,kcc436,2024-05-06 19:30:51.063,Create a ticket,,7968735028,2024-05-09 21:18:17.710,2024-05-16 14:03:47.757,Gworkflows,,"Santos, Aldwin Nicolai",Techm,1.0,gpp375
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/d5bf8df837ce985d4e64037c2d2f96b5,https://interactions.hellox.ai/api/recording/d1b6e05236f863924b59951561c21a79,23002-2024052100000024869,83b5ca1165a9006f4a09dca96f0f6177,6548266237,0614620766,hangup,9160414580,Youtube TV Intent Transfer,,2024-05-23 16:58:50,2024-05-21 21:38:09,188429,CUT_CABLE,Channel Not Available,,,39,Spa_Unidentified,PAYMENT_HISTORY,,,6.189282759101321e+16,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-111|INTENT|BANNER_NOT_FOUND,,,B,Y,,N,False,False,ENG,TSO,,5.34,,
+https://interactions.hellox.ai/api/recording/51a7d9825a030a88a7b7c5c6e4021a98,https://interactions.hellox.ai/api/recording/5d5f9724e6ab82ec17e3031ee9e3907a,29001-2024051700000012848,3135f6d09bd7c33006f1232f7da1bfd9,8505368929,2111936305,transfer,3559180458,Intent Transfer,"T02.0 Intent Capture,T29.0 ID ANI Match Confirm Account #,T23.0 Check or Confirm Appt,T24.0 Reschedule Appointment",2024-05-02 10:25:17,2024-05-21 16:20:10,202823,RECEIVED_LETTER,Tv Connection Issues,Silence,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, LA_REQUEST_INTENT_1, OUTAGE, START, ACCT_NUMBER_CAPTURE_2, CAPTURE_INVALID_W_DIGITS, ACCT_NUMBER_REPROMPT, GH_NOISE, ACCOUNT_NUMBER_FAIL_MOVE_TO_ADDRESS, FIRST, ZIP_CAPTURE_COMMON_ZIP5_CAPTURE_INTRO, STREET_ADDRESS_CAPTURE_COMMON_ADDRESS_CAPTURE_INTRO, NO_ADDRESS_FOUND, ZIP_CAPTURE_COMMON_ZIP5_CAPTURE_REPROMPT, ACCOUNT_NUMBER_FAIL, PAYMENT_ISSUE_QUESTION, AT_HOME, ASK_STATE, LOB, TRANSFER_PROMPT_DEFAULT]",31,Spa_Residential_c,NOT_TALKING_TO_ME,INTERNET_VAGUE_FIBER_DATA,SC,30475803670428114,I-617927115,2089.0,,my tv and phone don't work,"ACCT_NUMBER_CAPTURE: 2 1 4 9 1 2 6 0z 7 0z, ACCT_NUMBER_CAPTURE: 1 2 1 4 9 1 2 6 0z 7 0z, COMMON_ZIP5_CAPTURE: 7 5 0z 5 6, COMMON_ADDRESS_CAPTURE: Not Available, APPT_FOUND: yes, REQUEST_INTENT_AGAIN: my service is not working i wanna be transferred to technical support i have an open ticket, GIGA_SMS: no",B,,N,,True,False,SPA,TSO,ACTIVE,1.0,True,Order
+https://interactions.hellox.ai/api/recording/662e6332439aa70189a3d2eaac5b258b,https://interactions.hellox.ai/api/recording/cc2d6612bee770a8dedf006f3afc54cd,29003-2024051600000043519,c7ebc867414312902abfcc2e1b1ab973,5186981804,6659075086,user hangup,3345592347,Credit Unidentified Caller,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T36.0 On File Confirm Address, Phone, Email,T09.0 Capture Mobile/ Phone Number",2024-05-23 16:22:19,2024-05-19 05:16:16,98515,AFTER_WAIT,,Ivr Passcode,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, OUTAGE, ASK_BUSINESS_ACCOUNT, FORCE_VERIFY, GH_HELLO, FORCE_VERIFY_REPROMPT, GH_NO_MATCH, NO_FORCE_VERIFY, OUTAGE_NOT_FOUND, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",25,,,CANCEL_SERVICE,VA,,I-620960739,2000.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-104|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND,relocation,"ACCOUNT: um i need to know about my telephone services and i need to know about how to hook up and then i want to month and i'm not i i having trouble to hook it up, PHONE: this is saying i need to talk to somebody, PHONE: i just said i need to talk to operator",,N,Y,Y,,,SPA,TSO,OPEN,,False,Customer
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-06-13 00:11:28 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+customer_wtn = 3047360516
+case_id = 'S-242362239'
+
+# Find the dataframe containing the customer wtn
+df_with_wtn = None
+for df in dfs:
+    if 'CUSTOMERWTN' in df.columns:
+        if df[df['CUSTOMERWTN'] == customer_wtn].shape[0] > 0:
+            df_with_wtn = df
+            break
+
+# Find the dataframe containing the case ID
+df_with_case_id = None
+for df in dfs:
+    if 'SCASEID' in df.columns:
+        if df[df['SCASEID'] == case_id].shape[0] > 0:
+            df_with_case_id = df
+            break
+
+# If both dataframes are found, merge them
+if df_with_wtn is not None and df_with_case_id is not None:
+    merged_df = pd.merge(df_with_wtn[df_with_wtn['CUSTOMERWTN'] == customer_wtn], df_with_case_id[df_with_case_id['SCASEID'] == case_id], how='inner')
+    result = {"type": "dataframe", "value": merged_df}
+else:
+    result = {"type": "string", "value": "No information found for the provided customer wtn and case ID."}
+            ```
+            
+2024-06-13 00:11:28 [INFO] Executing Step 4: CachePopulation
+2024-06-13 00:11:28 [INFO] Executing Step 5: CodeCleaning
+2024-06-13 00:11:28 [INFO] 
+Code running:
+```
+customer_wtn = 3047360516
+case_id = 'S-242362239'
+df_with_wtn = None
+for df in dfs:
+    if 'CUSTOMERWTN' in df.columns:
+        if df[df['CUSTOMERWTN'] == customer_wtn].shape[0] > 0:
+            df_with_wtn = df
+            break
+df_with_case_id = None
+for df in dfs:
+    if 'SCASEID' in df.columns:
+        if df[df['SCASEID'] == case_id].shape[0] > 0:
+            df_with_case_id = df
+            break
+if df_with_wtn is not None and df_with_case_id is not None:
+    merged_df = pd.merge(df_with_wtn[df_with_wtn['CUSTOMERWTN'] == customer_wtn], df_with_case_id[df_with_case_id['SCASEID'] == case_id], how='inner')
+    result = {'type': 'dataframe', 'value': merged_df}
+else:
+    result = {'type': 'string', 'value': 'No information found for the provided customer wtn and case ID.'}
+        ```
+2024-06-13 00:11:28 [INFO] Executing Step 6: CodeExecution
+2024-06-13 00:11:28 [INFO] Executing Step 7: ResultValidation
+2024-06-13 00:11:28 [INFO] Answer: {'type': 'dataframe', 'value':     CUSTOMERWTN      ICASEID      SCASEID            EVENTDATETIME  ...            Supervisor     Site Repeats Previous Agent
+0  3.047361e+09  I-615677277  S-242362239  2024-05-12 15:40:15.117  ...  Rajaram, Nandhakumar  Prodapt     0.0         mvv625
+
+[1 rows x 18 columns]}
+2024-06-13 00:11:28 [INFO] Executing Step 8: ResultParsing
+2024-06-13 00:11:45 [INFO] Question: give me all the details associated with the customer wtn 3047360516
+2024-06-13 00:11:45 [INFO] Running PandasAI with langchain_vertexai LLM...
+2024-06-13 00:11:45 [INFO] Prompt ID: 0a19a67c-84d9-40b8-964d-f4c0d2cffa5c
+2024-06-13 00:11:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-13 00:11:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-13 00:11:45 [INFO] Executing Step 1: CacheLookup
+2024-06-13 00:11:45 [INFO] Executing Step 2: PromptGeneration
+2024-06-13 00:11:45 [INFO] Using prompt: <dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115137159,0705_CUST_EQ/WIRE_(UNDER_WARRANTY),211_PREMISE_NETWORK,121_RELOADED_CONFIG,81_VZ_T1_PACLEC
+115195837,0409_ETHERNET_IW_W_MAINT,32_SHORTED,10_TROUBLE_CLEARED,93_STORM_WO_PROJECT#
+115183101,0233_COAX_IW_W/O_MAINT,308_RESIDENTIAL_PWR_OUT,,322_CARD_FAILURE
+</dataframe>
+<dataframe>
+dfs[1]:1659x3
+Count_of_Calls,Service_Account_number,Names
+91,00878931,"Ramaribana, Boa"
+269,00819734,"Jamaquio, John Carl"
+248,00859617,
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+,"Aquino, Jason",TechM,Irving TSO Voice,,2024-05-05 19:10:04.930,,,,0799188331,,8642632170,,,Chatbot,,Slow internet speed,Call,Unknown,FiOS,System,Phone Number,Customer Property Damage,Static IP Configuration,Redirect Customer Outside Frontier,3803538128,1375727359,Resolved-Completed,No
+"Bautista, Alexa","Nesbitt, Christopher",,,2024-05-16 16:56:03.153,,2024-05-23,I-615571077,937.0,1964976739,8.634203234020509e+16,6449116609,2024-05-31 13:52:26.730,maa269,Interactions,Troubleshooting,,,POTS,,,Voicemail,DSL,Resolved Change DNS,Where is my Tech,9502446265,7817981585,Pending-Transfer,
+"Ting, Christian Emmanuel",,IBEX,Innover LC TSO Voice,2024-05-20 22:42:50.933,2024-05-05 18:09:52.497,2024-05-14,I-616484709,980.0,4125377001,7.609477285012525e+16,1988982566,2024-05-14 14:05:11.617,add534,,Router keeps disconnecting and losing Internet,Internet,Chat,,v-fiberoptic,Copper,,,,,3715777838,8814781946,,Yes
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-618658911,S-240635554,2024-05-17 08:29:39.277,Ticket created - 6403837,v_agg954,2024-05-15 13:33:56.203,Create a ticket,FVDVR,8609177642,2024-05-03 17:49:37.983,2024-05-31 18:03:58.927,Gworkflows,"Murali, Naveenash",,,0.0,jjj282
+9413426689.0,I-616814223,S-242699884,2024-05-03 13:25:45.100,Ticket created - 6110723,rgg720,2024-05-17 08:39:49.543,Test Ok,No,1883831142,2024-05-14 17:12:44.610,2024-05-09 19:34:24.407,Gworkflows,"Samulde, John Christoper","Vergara, Janine",Prodapt,0.0,gss197
+2147310505.0,I-613465516,S-246972408,2024-05-19 13:18:07.923,Ticket created - 6110178,kcc436,2024-05-06 19:30:51.063,Create a ticket,,7968735028,2024-05-09 21:18:17.710,2024-05-16 14:03:47.757,Gworkflows,,"Santos, Aldwin Nicolai",Techm,1.0,gpp375
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/d5bf8df837ce985d4e64037c2d2f96b5,https://interactions.hellox.ai/api/recording/d1b6e05236f863924b59951561c21a79,23002-2024052100000024869,83b5ca1165a9006f4a09dca96f0f6177,6548266237,0614620766,hangup,9160414580,Youtube TV Intent Transfer,,2024-05-23 16:58:50,2024-05-21 21:38:09,188429,CUT_CABLE,Channel Not Available,,,39,Spa_Unidentified,PAYMENT_HISTORY,,,6.189282759101321e+16,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-111|INTENT|BANNER_NOT_FOUND,,,B,Y,,N,False,False,ENG,TSO,,5.34,,
+https://interactions.hellox.ai/api/recording/51a7d9825a030a88a7b7c5c6e4021a98,https://interactions.hellox.ai/api/recording/5d5f9724e6ab82ec17e3031ee9e3907a,29001-2024051700000012848,3135f6d09bd7c33006f1232f7da1bfd9,8505368929,2111936305,transfer,3559180458,Intent Transfer,"T02.0 Intent Capture,T29.0 ID ANI Match Confirm Account #,T23.0 Check or Confirm Appt,T24.0 Reschedule Appointment",2024-05-02 10:25:17,2024-05-21 16:20:10,202823,RECEIVED_LETTER,Tv Connection Issues,Silence,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, LA_REQUEST_INTENT_1, OUTAGE, START, ACCT_NUMBER_CAPTURE_2, CAPTURE_INVALID_W_DIGITS, ACCT_NUMBER_REPROMPT, GH_NOISE, ACCOUNT_NUMBER_FAIL_MOVE_TO_ADDRESS, FIRST, ZIP_CAPTURE_COMMON_ZIP5_CAPTURE_INTRO, STREET_ADDRESS_CAPTURE_COMMON_ADDRESS_CAPTURE_INTRO, NO_ADDRESS_FOUND, ZIP_CAPTURE_COMMON_ZIP5_CAPTURE_REPROMPT, ACCOUNT_NUMBER_FAIL, PAYMENT_ISSUE_QUESTION, AT_HOME, ASK_STATE, LOB, TRANSFER_PROMPT_DEFAULT]",31,Spa_Residential_c,NOT_TALKING_TO_ME,INTERNET_VAGUE_FIBER_DATA,SC,30475803670428114,I-617927115,2089.0,,my tv and phone don't work,"ACCT_NUMBER_CAPTURE: 2 1 4 9 1 2 6 0z 7 0z, ACCT_NUMBER_CAPTURE: 1 2 1 4 9 1 2 6 0z 7 0z, COMMON_ZIP5_CAPTURE: 7 5 0z 5 6, COMMON_ADDRESS_CAPTURE: Not Available, APPT_FOUND: yes, REQUEST_INTENT_AGAIN: my service is not working i wanna be transferred to technical support i have an open ticket, GIGA_SMS: no",B,,N,,True,False,SPA,TSO,ACTIVE,1.0,True,Order
+https://interactions.hellox.ai/api/recording/662e6332439aa70189a3d2eaac5b258b,https://interactions.hellox.ai/api/recording/cc2d6612bee770a8dedf006f3afc54cd,29003-2024051600000043519,c7ebc867414312902abfcc2e1b1ab973,5186981804,6659075086,user hangup,3345592347,Credit Unidentified Caller,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T36.0 On File Confirm Address, Phone, Email,T09.0 Capture Mobile/ Phone Number",2024-05-23 16:22:19,2024-05-19 05:16:16,98515,AFTER_WAIT,,Ivr Passcode,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, OUTAGE, ASK_BUSINESS_ACCOUNT, FORCE_VERIFY, GH_HELLO, FORCE_VERIFY_REPROMPT, GH_NO_MATCH, NO_FORCE_VERIFY, OUTAGE_NOT_FOUND, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",25,,,CANCEL_SERVICE,VA,,I-620960739,2000.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-104|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND,relocation,"ACCOUNT: um i need to know about my telephone services and i need to know about how to hook up and then i want to month and i'm not i i having trouble to hook it up, PHONE: this is saying i need to talk to somebody, PHONE: i just said i need to talk to operator",,N,Y,Y,,,SPA,TSO,OPEN,,False,Customer
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-13 00:11:45 [INFO] Executing Step 3: CodeGenerator
+2024-06-13 00:11:52 [INFO] Prompt used:
+             You are a data analysis agent. Your main goal is to help non-technical users to analyze data. 
+
+### PREVIOUS CONVERSATION
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+### ANSWER
+ Check it out: <dataframe>
+<dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115137159,0705_CUST_EQ/WIRE_(UNDER_WARRANTY),211_PREMISE_NETWORK,121_RELOADED_CONFIG,81_VZ_T1_PACLEC
+115195837,0409_ETHERNET_IW_W_MAINT,32_SHORTED,10_TROUBLE_CLEARED,93_STORM_WO_PROJECT#
+115183101,0233_COAX_IW_W/O_MAINT,308_RESIDENTIAL_PWR_OUT,,322_CARD_FAILURE
+</dataframe>
+<dataframe>
+dfs[1]:1659x3
+Count_of_Calls,Service_Account_number,Names
+91,00878931,"Ramaribana, Boa"
+269,00819734,"Jamaquio, John Carl"
+248,00859617,
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+,"Aquino, Jason",TechM,Irving TSO Voice,,2024-05-05 19:10:04.930,,,,0799188331,,8642632170,,,Chatbot,,Slow internet speed,Call,Unknown,FiOS,System,Phone Number,Customer Property Damage,Static IP Configuration,Redirect Customer Outside Frontier,3803538128,1375727359,Resolved-Completed,No
+"Bautista, Alexa","Nesbitt, Christopher",,,2024-05-16 16:56:03.153,,2024-05-23,I-615571077,937.0,1964976739,8.634203234020509e+16,6449116609,2024-05-31 13:52:26.730,maa269,Interactions,Troubleshooting,,,POTS,,,Voicemail,DSL,Resolved Change DNS,Where is my Tech,9502446265,7817981585,Pending-Transfer,
+"Ting, Christian Emmanuel",,IBEX,Innover LC TSO Voice,2024-05-20 22:42:50.933,2024-05-05 18:09:52.497,2024-05-14,I-616484709,980.0,4125377001,7.609477285012525e+16,1988982566,2024-05-14 14:05:11.617,add534,,Router keeps disconnecting and losing Internet,Internet,Chat,,v-fiberoptic,Copper,,,,,3715777838,8814781946,,Yes
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-618658911,S-240635554,2024-05-17 08:29:39.277,Ticket created - 6403837,v_agg954,2024-05-15 13:33:56.203,Create a ticket,FVDVR,8609177642,2024-05-03 17:49:37.983,2024-05-31 18:03:58.927,Gworkflows,"Murali, Naveenash",,,0.0,jjj282
+9413426689.0,I-616814223,S-242699884,2024-05-03 13:25:45.100,Ticket created - 6110723,rgg720,2024-05-17 08:39:49.543,Test Ok,No,1883831142,2024-05-14 17:12:44.610,2024-05-09 19:34:24.407,Gworkflows,"Samulde, John Christoper","Vergara, Janine",Prodapt,0.0,gss197
+2147310505.0,I-613465516,S-246972408,2024-05-19 13:18:07.923,Ticket created - 6110178,kcc436,2024-05-06 19:30:51.063,Create a ticket,,7968735028,2024-05-09 21:18:17.710,2024-05-16 14:03:47.757,Gworkflows,,"Santos, Aldwin Nicolai",Techm,1.0,gpp375
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/d5bf8df837ce985d4e64037c2d2f96b5,https://interactions.hellox.ai/api/recording/d1b6e05236f863924b59951561c21a79,23002-2024052100000024869,83b5ca1165a9006f4a09dca96f0f6177,6548266237,0614620766,hangup,9160414580,Youtube TV Intent Transfer,,2024-05-23 16:58:50,2024-05-21 21:38:09,188429,CUT_CABLE,Channel Not Available,,,39,Spa_Unidentified,PAYMENT_HISTORY,,,6.189282759101321e+16,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-111|INTENT|BANNER_NOT_FOUND,,,B,Y,,N,False,False,ENG,TSO,,5.34,,
+https://interactions.hellox.ai/api/recording/51a7d9825a030a88a7b7c5c6e4021a98,https://interactions.hellox.ai/api/recording/5d5f9724e6ab82ec17e3031ee9e3907a,29001-2024051700000012848,3135f6d09bd7c33006f1232f7da1bfd9,8505368929,2111936305,transfer,3559180458,Intent Transfer,"T02.0 Intent Capture,T29.0 ID ANI Match Confirm Account #,T23.0 Check or Confirm Appt,T24.0 Reschedule Appointment",2024-05-02 10:25:17,2024-05-21 16:20:10,202823,RECEIVED_LETTER,Tv Connection Issues,Silence,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, LA_REQUEST_INTENT_1, OUTAGE, START, ACCT_NUMBER_CAPTURE_2, CAPTURE_INVALID_W_DIGITS, ACCT_NUMBER_REPROMPT, GH_NOISE, ACCOUNT_NUMBER_FAIL_MOVE_TO_ADDRESS, FIRST, ZIP_CAPTURE_COMMON_ZIP5_CAPTURE_INTRO, STREET_ADDRESS_CAPTURE_COMMON_ADDRESS_CAPTURE_INTRO, NO_ADDRESS_FOUND, ZIP_CAPTURE_COMMON_ZIP5_CAPTURE_REPROMPT, ACCOUNT_NUMBER_FAIL, PAYMENT_ISSUE_QUESTION, AT_HOME, ASK_STATE, LOB, TRANSFER_PROMPT_DEFAULT]",31,Spa_Residential_c,NOT_TALKING_TO_ME,INTERNET_VAGUE_FIBER_DATA,SC,30475803670428114,I-617927115,2089.0,,my tv and phone don't work,"ACCT_NUMBER_CAPTURE: 2 1 4 9 1 2 6 0z 7 0z, ACCT_NUMBER_CAPTURE: 1 2 1 4 9 1 2 6 0z 7 0z, COMMON_ZIP5_CAPTURE: 7 5 0z 5 6, COMMON_ADDRESS_CAPTURE: Not Available, APPT_FOUND: yes, REQUEST_INTENT_AGAIN: my service is not working i wanna be transferred to technical support i have an open ticket, GIGA_SMS: no",B,,N,,True,False,SPA,TSO,ACTIVE,1.0,True,Order
+https://interactions.hellox.ai/api/recording/662e6332439aa70189a3d2eaac5b258b,https://interactions.hellox.ai/api/recording/cc2d6612bee770a8dedf006f3afc54cd,29003-2024051600000043519,c7ebc867414312902abfcc2e1b1ab973,5186981804,6659075086,user hangup,3345592347,Credit Unidentified Caller,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T36.0 On File Confirm Address, Phone, Email,T09.0 Capture Mobile/ Phone Number",2024-05-23 16:22:19,2024-05-19 05:16:16,98515,AFTER_WAIT,,Ivr Passcode,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, OUTAGE, ASK_BUSINESS_ACCOUNT, FORCE_VERIFY, GH_HELLO, FORCE_VERIFY_REPROMPT, GH_NO_MATCH, NO_FORCE_VERIFY, OUTAGE_NOT_FOUND, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",25,,,CANCEL_SERVICE,VA,,I-620960739,2000.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-104|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND,relocation,"ACCOUNT: um i need to know about my telephone services and i need to know about how to hook up and then i want to month and i'm not i i having trouble to hook it up, PHONE: this is saying i need to talk to somebody, PHONE: i just said i need to talk to operator",,N,Y,Y,,,SPA,TSO,OPEN,,False,Customer
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-06-13 00:11:52 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+customer_wtn = 3047360516
+# Filter dataframes to only include rows with the specified customer WTN
+filtered_dfs = []
+for df in dfs:
+    for column in df.columns:
+        if df[column].dtype == 'object':
+            try:
+                df[column] = pd.to_numeric(df[column], errors='ignore')
+            except:
+                pass
+    if 'CUSTOMERWTN' in df.columns:
+        filtered_df = df[df['CUSTOMERWTN'] == customer_wtn]
+        filtered_dfs.append(filtered_df)
+    elif 'Account Number' in df.columns:
+        filtered_df = df[df['Account Number'] == customer_wtn]
+        filtered_dfs.append(filtered_df)
+    else:
+        filtered_dfs.append(pd.DataFrame())
+
+
+# Concatenate the filtered dataframes
+result_df = pd.concat(filtered_dfs, axis=1)
+
+# Declare result var: 
+result = {
+    "type": "dataframe",
+    "value": result_df
+}
+            ```
+            
+2024-06-13 00:11:52 [INFO] Executing Step 4: CachePopulation
+2024-06-13 00:11:52 [INFO] Executing Step 5: CodeCleaning
+2024-06-13 00:11:52 [INFO] 
+Code running:
+```
+customer_wtn = 3047360516
+filtered_dfs = []
+for df in dfs:
+    for column in df.columns:
+        if df[column].dtype == 'object':
+            try:
+                df[column] = pd.to_numeric(df[column], errors='ignore')
+            except:
+                pass
+    if 'CUSTOMERWTN' in df.columns:
+        filtered_df = df[df['CUSTOMERWTN'] == customer_wtn]
+        filtered_dfs.append(filtered_df)
+    elif 'Account Number' in df.columns:
+        filtered_df = df[df['Account Number'] == customer_wtn]
+        filtered_dfs.append(filtered_df)
+    else:
+        filtered_dfs.append(pd.DataFrame())
+result_df = pd.concat(filtered_dfs, axis=1)
+result = {'type': 'dataframe', 'value': result_df}
+        ```
+2024-06-13 00:11:52 [INFO] Executing Step 6: CodeExecution
+2024-06-13 00:11:53 [INFO] Executing Step 7: ResultValidation
+2024-06-13 00:11:53 [INFO] Answer: {'type': 'dataframe', 'value':      CUSTOMERWTN      ICASEID      SCASEID            EVENTDATETIME  ... Account Status Credit Amount Mobile SolrCustomerType
+19  3.047361e+09  I-615677277  S-242362239  2024-05-12 15:40:15.117  ...            NaN           NaN    NaN              NaN
+
+[1 rows x 58 columns]}
+2024-06-13 00:11:53 [INFO] Executing Step 8: ResultParsing
+2024-06-13 00:16:20 [INFO] Question: give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+2024-06-13 00:16:20 [INFO] Running PandasAI with langchain_vertexai LLM...
+2024-06-13 00:16:20 [INFO] Prompt ID: 938f5bf5-bbbf-4cb5-87a8-8d09ff2edb5d
+2024-06-13 00:16:20 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-13 00:16:24 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-13 00:16:24 [INFO] Executing Step 1: CacheLookup
+2024-06-13 00:16:24 [INFO] Executing Step 2: PromptGeneration
+2024-06-13 00:16:24 [INFO] Using prompt: <dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-13 00:16:24 [INFO] Executing Step 3: CodeGenerator
+2024-06-13 00:16:29 [INFO] Prompt used:
+             You are a data analysis agent. Your main goal is to help non-technical users to analyze data. 
+<dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-06-13 00:16:29 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+customer_data = dfs[3][dfs[3]['CUSTOMERWTN'] == 3047360516]
+result_data = customer_data[customer_data['SCASEID'] == 'S-242362239']
+
+
+# Declare result var: 
+result = {
+    "type": "dataframe",
+    "value": result_data
+}
+            ```
+            
+2024-06-13 00:16:29 [INFO] Executing Step 4: CachePopulation
+2024-06-13 00:16:30 [INFO] Executing Step 5: CodeCleaning
+2024-06-13 00:16:30 [INFO] 
+Code running:
+```
+customer_data = dfs[3][dfs[3]['CUSTOMERWTN'] == 3047360516]
+result_data = customer_data[customer_data['SCASEID'] == 'S-242362239']
+result = {'type': 'dataframe', 'value': result_data}
+        ```
+2024-06-13 00:16:30 [INFO] Executing Step 6: CodeExecution
+2024-06-13 00:16:30 [INFO] Executing Step 7: ResultValidation
+2024-06-13 00:16:30 [INFO] Answer: {'type': 'dataframe', 'value':      CUSTOMERWTN      ICASEID      SCASEID            EVENTDATETIME  ...            Supervisor     Site Repeats Previous Agent
+19  3.047361e+09  I-615677277  S-242362239  2024-05-12 15:40:15.117  ...  Rajaram, Nandhakumar  Prodapt     0.0         mvv625
+
+[1 rows x 18 columns]}
+2024-06-13 00:16:30 [INFO] Executing Step 8: ResultParsing
+2024-06-13 00:17:08 [INFO] Question: give me all the details associated with the customer wtn 3047360516
+2024-06-13 00:17:08 [INFO] Running PandasAI with langchain_vertexai LLM...
+2024-06-13 00:17:08 [INFO] Prompt ID: 111cc82a-31aa-4e92-ba5a-8741812acd04
+2024-06-13 00:17:08 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-13 00:17:08 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-13 00:17:08 [INFO] Executing Step 1: CacheLookup
+2024-06-13 00:17:08 [INFO] Executing Step 2: PromptGeneration
+2024-06-13 00:17:08 [INFO] Using prompt: <dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-13 00:17:08 [INFO] Executing Step 3: CodeGenerator
+2024-06-13 00:17:11 [INFO] Prompt used:
+             You are a data analysis agent. Your main goal is to help non-technical users to analyze data. 
+
+### PREVIOUS CONVERSATION
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+### ANSWER
+ Check it out: <dataframe>
+<dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-06-13 00:17:11 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+customer_wtn = 3047360516
+
+# Filter dfs[3] for the given customer wtn
+customer_details = dfs[3][dfs[3]['CUSTOMERWTN'] == customer_wtn]
+
+# Declare result var: 
+result = {
+    "type": "dataframe",
+    "value": customer_details
+}
+            ```
+            
+2024-06-13 00:17:11 [INFO] Executing Step 4: CachePopulation
+2024-06-13 00:17:11 [INFO] Executing Step 5: CodeCleaning
+2024-06-13 00:17:11 [INFO] 
+Code running:
+```
+customer_wtn = 3047360516
+customer_details = dfs[3][dfs[3]['CUSTOMERWTN'] == customer_wtn]
+result = {'type': 'dataframe', 'value': customer_details}
+        ```
+2024-06-13 00:17:11 [INFO] Executing Step 6: CodeExecution
+2024-06-13 00:17:11 [INFO] Executing Step 7: ResultValidation
+2024-06-13 00:17:11 [INFO] Answer: {'type': 'dataframe', 'value':      CUSTOMERWTN      ICASEID      SCASEID            EVENTDATETIME  ...            Supervisor     Site Repeats Previous Agent
+19  3.047361e+09  I-615677277  S-242362239  2024-05-12 15:40:15.117  ...  Rajaram, Nandhakumar  Prodapt     0.0         mvv625
+
+[1 rows x 18 columns]}
+2024-06-13 00:17:11 [INFO] Executing Step 8: ResultParsing
+2024-06-13 18:53:47 [INFO] Question: give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+2024-06-13 18:53:47 [INFO] Running PandasAI with langchain_vertexai LLM...
+2024-06-13 18:53:47 [INFO] Prompt ID: b320d58f-d203-4c80-9eeb-31e389c794cb
+2024-06-13 18:53:47 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-13 18:53:47 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-13 18:53:47 [INFO] Executing Step 1: CacheLookup
+2024-06-13 18:53:47 [INFO] Executing Step 2: PromptGeneration
+2024-06-13 18:53:47 [INFO] Using prompt: <dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-13 18:53:47 [INFO] Executing Step 3: CodeGenerator
+2024-06-13 18:53:52 [INFO] Prompt used:
+             You are a data analysis agent. Your main goal is to help non-technical users to analyze data. 
+
+### PREVIOUS CONVERSATION
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+### ANSWER
+ Check it out: <dataframe>
+### QUERY
+ give me all the details associated with the customer wtn 3047360516
+### ANSWER
+ Check it out: <dataframe>
+<dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-06-13 18:53:52 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+customer_wtn = 3047360516
+case_id = 'S-242362239'
+
+# Filter dfs[3] for matching customer wtn and case ID
+filtered_df = dfs[3][(dfs[3]['CUSTOMERWTN'] == customer_wtn) & (dfs[3]['SCASEID'] == case_id)]
+
+# Declare result var: 
+result = {
+    "type": "dataframe",
+    "value": filtered_df
+}
+            ```
+            
+2024-06-13 18:53:52 [INFO] Executing Step 4: CachePopulation
+2024-06-13 18:53:52 [INFO] Executing Step 5: CodeCleaning
+2024-06-13 18:53:52 [INFO] 
+Code running:
+```
+customer_wtn = 3047360516
+case_id = 'S-242362239'
+filtered_df = dfs[3][(dfs[3]['CUSTOMERWTN'] == customer_wtn) & (dfs[3]['SCASEID'] == case_id)]
+result = {'type': 'dataframe', 'value': filtered_df}
+        ```
+2024-06-13 18:53:52 [INFO] Executing Step 6: CodeExecution
+2024-06-13 18:53:52 [INFO] Executing Step 7: ResultValidation
+2024-06-13 18:53:52 [INFO] Answer: {'type': 'dataframe', 'value':      CUSTOMERWTN      ICASEID      SCASEID            EVENTDATETIME  ...            Supervisor     Site Repeats Previous Agent
+19  3.047361e+09  I-615677277  S-242362239  2024-05-12 15:40:15.117  ...  Rajaram, Nandhakumar  Prodapt     0.0         mvv625
+
+[1 rows x 18 columns]}
+2024-06-13 18:53:53 [INFO] Executing Step 8: ResultParsing
+2024-06-13 18:54:34 [INFO] Question: give me all the details associated with the case S-242362239
+2024-06-13 18:54:34 [INFO] Running PandasAI with langchain_vertexai LLM...
+2024-06-13 18:54:34 [INFO] Prompt ID: 90346bdd-bd1c-4827-926a-d2ca667dcf83
+2024-06-13 18:54:34 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-13 18:54:34 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-13 18:54:34 [INFO] Executing Step 1: CacheLookup
+2024-06-13 18:54:34 [INFO] Executing Step 2: PromptGeneration
+2024-06-13 18:54:34 [INFO] Using prompt: <dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the case S-242362239
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-13 18:54:34 [INFO] Executing Step 3: CodeGenerator
+2024-06-13 18:54:37 [INFO] Prompt used:
+             You are a data analysis agent. Your main goal is to help non-technical users to analyze data. 
+
+### PREVIOUS CONVERSATION
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+### ANSWER
+ Check it out: <dataframe>
+### QUERY
+ give me all the details associated with the customer wtn 3047360516
+### ANSWER
+ Check it out: <dataframe>
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+### ANSWER
+ Check it out: <dataframe>
+<dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me all the details associated with the case S-242362239
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-06-13 18:54:37 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+result_df = dfs[3][dfs[3]['SCASEID'] == 'S-242362239']
+
+# Declare result var: 
+result = {
+    "type": "dataframe",
+    "value": result_df
+}
+            ```
+            
+2024-06-13 18:54:37 [INFO] Executing Step 4: CachePopulation
+2024-06-13 18:54:37 [INFO] Executing Step 5: CodeCleaning
+2024-06-13 18:54:37 [INFO] 
+Code running:
+```
+result_df = dfs[3][dfs[3]['SCASEID'] == 'S-242362239']
+result = {'type': 'dataframe', 'value': result_df}
+        ```
+2024-06-13 18:54:37 [INFO] Executing Step 6: CodeExecution
+2024-06-13 18:54:37 [INFO] Executing Step 7: ResultValidation
+2024-06-13 18:54:37 [INFO] Answer: {'type': 'dataframe', 'value':      CUSTOMERWTN      ICASEID      SCASEID            EVENTDATETIME  ...            Supervisor     Site Repeats Previous Agent
+19  3.047361e+09  I-615677277  S-242362239  2024-05-12 15:40:15.117  ...  Rajaram, Nandhakumar  Prodapt     0.0         mvv625
+
+[1 rows x 18 columns]}
+2024-06-13 18:54:37 [INFO] Executing Step 8: ResultParsing
+2024-06-13 18:55:41 [INFO] Question: how many cases are created on may 12th
+2024-06-13 18:55:41 [INFO] Running PandasAI with langchain_vertexai LLM...
+2024-06-13 18:55:41 [INFO] Prompt ID: 10e3e631-812c-4988-9168-62f09c488a7e
+2024-06-13 18:55:41 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-06-13 18:55:41 [INFO] Executing Step 0: ValidatePipelineInput
+2024-06-13 18:55:41 [INFO] Executing Step 1: CacheLookup
+2024-06-13 18:55:41 [INFO] Executing Step 2: PromptGeneration
+2024-06-13 18:55:41 [INFO] Using prompt: <dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many cases are created on may 12th
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-06-13 18:55:41 [INFO] Executing Step 3: CodeGenerator
+2024-06-13 18:55:45 [INFO] Prompt used:
+             You are a data analysis agent. Your main goal is to help non-technical users to analyze data. 
+
+### PREVIOUS CONVERSATION
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+### ANSWER
+ Check it out: <dataframe>
+### QUERY
+ give me all the details associated with the customer wtn 3047360516
+### ANSWER
+ Check it out: <dataframe>
+### QUERY
+ give me all the details associated with the customer wtn 3047360516 and the case S-242362239
+### ANSWER
+ Check it out: <dataframe>
+### QUERY
+ give me all the details associated with the case S-242362239
+### ANSWER
+ Check it out: <dataframe>
+<dataframe>
+dfs[0]:119002x5
+Call_Id,equipment_type,fault_type,resolution_action,issue_cause
+115201766,0245_VOICE_IW_W_WARRANTY,41_UNPLUGGED,,321_CHASSIS
+114857988,0703_CUST_EQ/WIRE_(W/O_MAINT),192_WIFI_SIGNAL_ISSUE,PLCD TEMP DROP CLRD,91_SEVERE_WEATHER
+115159359,0990_TEST_OK,08_EQUIPMENT_MALFUNCTIONING,Trouble Found OK,80_VZ_UBL_PACLEC
+</dataframe>
+<dataframe>
+dfs[1]:1659x2
+Service_Account_number_and_Names,Count_of_Calls
+"00869496 Mbese, Luyanda",794
+"00876469 LIMITED, DPI",184
+"00085082 Alvarez, Christopher",31
+</dataframe>
+<dataframe>
+dfs[2]:150003x29
+Agent,Supervisor,Company,Center,PXCREATEDATETIME,WeekStart,Date,PYID,NPA,BTN,ACCOUNTNUMBER,USI,PXUPDATEDATETIME,PXCREATEOPERATOR,CHANNELINITIATOR,INTENT,REASONFORINTERACTION,INTERACTIONTYPE,NETWORKTYPE,PRODUCTNAME,DISPOSITIONPRODUCT,DISPOSITIONFAULT,DISPOSITIONCAUSE,DISPOSITIONACTION,CALLCOMPLETIONREASON,CallingFrom,CallingTo,PYSTATUSWORK,DispositionedCase
+"Sumaya, John","Mocling, Rodolfo Jr",TechM,,,,2024-05-20,I-617956118,,,3.048633628041589e+16,,2024-05-20 16:30:05.140,rhh844,Interactions,,Sales - Phone,,DSL,f-fiberoptic,,,,Resolved Power Switch,Outage,,0999701030,Resolved-Desktop,Yes
+"Franco, Marie Angelie",,FPS,FPS Davao TSO Chat,2024-05-22 14:20:24.760,2024-05-19 12:58:26.903,2024-05-17,I-616129128,731.0,9413429599.0,9.379812237121523e+16,570278659869.0,2024-05-14 13:05:04.210,mcc925,IVR,Customer Care,Confirm Appointment,Prospect,,Wireless,Data,Unable to Connect Wired,Bill Disputes,,,8322774787.0,5711471004,,No
+,"Peralta, Sarah Jane",,Innover LC TSO Voice,2024-05-18 12:53:33.520,2024-05-19 00:41:24.323,,,442.0,2034988587.0,,310288310397.0,,,,Sale - Place Order - New Customer/Winback,,Chat,Unknown,,RingCentral,Fiber Upgrade,Service Order,Trouble Ticket SPC,Customer Not At Home,2146801512.0,1993490638,Open,
+</dataframe>
+<dataframe>
+dfs[3]:149999x18
+CUSTOMERWTN,ICASEID,SCASEID,EVENTDATETIME,QUESTION,RESULT_,Last Date Icase,APINAME,APIRESULTS,CUSTOMERUSI,DATE ICASE CREATED,DW_LOAD_DTTM,EVENTTYPE,Agent,Supervisor,Site,Repeats,Previous Agent
+,I-614895385,S-244146329,2024-05-31 19:19:33.410,Ticket created - 8910680,uss446,2024-05-01 09:26:25.060,Test Ok,,6964079103,2024-05-11 22:08:58.460,2024-05-07 19:19:39.013,Gworkflows,,,Ibex,1.0,prr541
+7609474850.0,I-616571082,S-242042293,2024-05-13 00:26:49.060,Ticket created - 6412571,sll779,2024-05-31 14:12:09.517,Create a ticket,Customer Accepts,5302270812,2024-05-10 17:03:28.320,2024-05-19 14:33:00.840,Gworkflows,"Dharani, Naresh","How, Chenn",,1.0,fcc121
+3043725057.0,I-621127417,S-240338010,2024-05-31 01:04:12.937,Ticket created - 6408016,jss0779,2024-05-09 15:10:21.123,Test Ok,Fault=Unable to Connect/Cause=Customer Premise Equipment/Action=Referred to My Premium Tech Pro,9919639462,2024-05-03 11:13:59.647,2024-05-20 01:36:57.683,Gworkflows,"Ventures, Gemini","Zwane, Nokuthula",Frontier Communications,0.0,jnn840
+</dataframe>
+<dataframe>
+dfs[4]:428716x40
+Recording Link,Play Call,Interactions Call ID,Interactions G3 Call ID,ANI,DNIS,Call Result,Transfer Destination,Transfer Reason,Transaction Audit,Start Time,End Time,Duration,Last Dialogue State,Opening Intent,Disambiguated Intent,Prompt List,Total Utterances,Customer Type,Final Intent,Transfer Intent Code,State,Account Number,PEGA iCase,PEGA intent code,Banner Message Activity,Opening Intent Speech to Text,Reprompt Opening Intent Speech to Text,Call Flow Type,Broadband Eligible,Broadband Billing,Pending Order,Caller Identified,Caller Authenticated,Language,Brand,Account Status,Credit Amount,Mobile,SolrCustomerType
+https://interactions.hellox.ai/api/recording/37ee7eed103045c58bc92df01d855c57,https://interactions.hellox.ai/api/recording/0efd86380490ffd9a67e6f2c0ede9bba,23002-2024050300000007279,e257a1d2d78e5e8499cae998c1d659d2,6204277079,9679341602,hangup,1008498975,Youtube TV Intent Transfer,"T29.0 ID ANI Match Confirm Account #,T03.0 Proactive Intent,T23.0 Check or Confirm Appt,T30.0 ID Capture Phone or Account #,T23.0 Check or Confirm Appt",2024-05-24 08:47:35,2024-05-29 11:20:53,188867,BILLING,Internet Password Reset,,"[GREETING_DEFAULT, REQUEST_INTENT_INITIAL_DEFAULT, JUST_CUT_A_CABLE, BANNER_MESSAGE_DYNAMIC, PROMPT, ASK_BUSINESS_ACCOUNT, REQUEST_INTENT_AGAIN_INITIAL, OUTAGE, BANNER_MESSAGE_DYNAMIC, PROMPT, REQUEST_INTENT_AGAIN_INITIAL, VOICE_DISCLAIMER, TRANSFER_PROMPT_DEFAULT]",21,Spa_Residential,EMAIL_PASSWORD_RESET_DSL,PHONE_VAGUE_FIBER_VOICE,IL,98964289011113065,I-620716712,2076.0,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-114,having trouble with my app and also my services down,"PHONE_ISSUE: wi-fi, PHONE_ISSUE: wi-fi, PHONE_ISSUE: tech support no",,Y,,,True,False,SPA,TSO,,,,Customer
+https://interactions.hellox.ai/api/recording/6a5ccd32bb29b6eb7d666d12cbf529b0,https://interactions.hellox.ai/api/recording/fbf955695128ea3b06c4a98ba7f663df,29002-2024050700000024651,2d2a57b770dd063ef1e04750a5c74821,9431554012,3624546591,transfer,8835868943,Caller turned down GIGA tech support offer,,2024-05-02 13:54:29,2024-05-09 13:08:24,107702,FORCE_VERIFY_PERMISSION,Channel Not Available,Place Order Fiber,,19,,,REPAIR_PHONE_UNSPECIFIED,IA,,,,BEFORE_ID|BANNER_NOT_FOUND|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63|INTENT|BANNER_NOT_FOUND|INTENT|BANNER_FOUND-63,,"APPT_DISAMBIG: ma'am, APPT_DISAMBIG: may i talk with someone please",B,,N,Y,False,False,SPA,TSO,INACTIVE,4.5,False,
+https://interactions.hellox.ai/api/recording/5b9e074f1b02aaceec8fbb4afc954541,https://interactions.hellox.ai/api/recording/76acd3cd5a39c72e8080023adc6f69d4,27003-2024052900000017948,03207206cb976bb464a00f6b4d09e6f7,4113798568,1153412826,user hangup,4187475326,"Credit intent, neither found on account","T02.0 Intent Capture,T01.0 Broadcast Message,T30.0 ID Capture Phone or Account #,T38.0 Outage Information,T09.0 Capture Mobile/ Phone Number,T28.0 FAQ",2024-05-25 13:00:49,2024-05-14 15:48:52,102322,MOBILE_PHONE_CAPTURE,,Phone Vague,"[GREETING_DEFAULT, APPT_TODAY, TT_APPT_DATE_TIME, APPT_DISAMBIG_TT, FIRST_AVAILABLE, CANCEL, APPOINTMENT, GH_NOISE, APPOINTMENT_REPROMPT]",29,Spa_Business,CANCEL_ORDER,,,57058632040516243,I-619438040,2031.0,,this is w may school li and there is a lot bag been hanging from a cable on the pole on my property for,,B,N,Y,N,,,ENG,TSO,OPEN,5.34,True,Order
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ how many cases are created on may 12th
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-06-13 18:55:45 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+df = dfs[3]
+df['DATE ICASE CREATED'] = pd.to_datetime(df['DATE ICASE CREATED'])
+filtered_df = df[df['DATE ICASE CREATED'].dt.strftime('%Y-%m-%d') == '2024-05-12']
+count = len(filtered_df)
+
+# Declare result var: 
+result = {
+    "type": "number",
+    "value": count
+}
+            ```
+            
+2024-06-13 18:55:45 [INFO] Executing Step 4: CachePopulation
+2024-06-13 18:55:45 [INFO] Executing Step 5: CodeCleaning
+2024-06-13 18:55:45 [INFO] 
+Code running:
+```
+df = dfs[3]
+df['DATE ICASE CREATED'] = pd.to_datetime(df['DATE ICASE CREATED'])
+filtered_df = df[df['DATE ICASE CREATED'].dt.strftime('%Y-%m-%d') == '2024-05-12']
+count = len(filtered_df)
+result = {'type': 'number', 'value': count}
+        ```
+2024-06-13 18:55:45 [INFO] Executing Step 6: CodeExecution
+2024-06-13 18:55:45 [INFO] Executing Step 7: ResultValidation
+2024-06-13 18:55:45 [INFO] Answer: {'type': 'number', 'value': 1794}
+2024-06-13 18:55:45 [INFO] Executing Step 8: ResultParsing

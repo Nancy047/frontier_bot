@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontier-bot
+  namespace: default
+  labels:
+    app: frontier-bot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontier-bot
+  template:
+    metadata:
+      labels:
+        app: frontier-bot
+    spec:
+      containers:
+        - name: frontier-bot
+          image: ""
+          ports:
+            - containerPort: 8000
