@@ -1,0 +1,53 @@
+name: Deploy to GKE
+
+on:
+  push:
+    branches: [ main ]
+
+env:
+  GCP_APP_NAME: ${{ secrets.APP_NAME }}
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  GCP_CLUSTER_NAME: ${{ secrets.GKE_CLUSTER_NAME }}
+  GCP_CLUSTER_LOCATION: ${{ secrets.GKE_CLUSTER_LOCATION }}
+  GCP_CLUSTER_NAMESPACE: ${{ secrets.GKE_NAMESPACE }}
+  GKE_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Login to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Build Docker image
+        run: docker build -t us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/b-ctl-047-artifact/${{ secrets.APP_NAME }}:${{ github.sha }} .
+
+      - name: Authenticate to Artifact Registry (gcloud)
+        run: gcloud auth configure-docker us-central1-docker.pkg.dev
+
+      - name: Push Docker image to Artifact Registry
+        run: docker push us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/b-ctl-047-artifact/${{ secrets.APP_NAME }}:${{ github.sha }}
+
+      - name: Set up GKE credentials
+        uses: google-github-actions/get-gke-credentials@v1
+        with:
+          cluster_name: ${{ env.GCP_CLUSTER_NAME }}
+          location: ${{ env.GCP_CLUSTER_LOCATION }}
+
+      - name: Extract short SHA
+        id: vars
+        run: echo "SHORT_SHA=${GITHUB_SHA::8}" >> $GITHUB_ENV
+
+      - name: Update deployment.yaml
+        run: |
+          sed -i "s|image:.*|image: us-central1-docker.pkg.dev/${{ env.PROJECT_ID }}/b-ctl-047-artifact/${{ env.GCP_APP_NAME }}:${{ github.sha }}|g" deployment.yaml
+
+      - name: Deploy application
+        run: kubectl apply -f deployment.yaml
+
+      - name: Expose service
+        run: kubectl apply -f service.yaml
