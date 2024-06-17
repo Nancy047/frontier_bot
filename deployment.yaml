@@ -6,7 +6,7 @@ metadata:
   labels:
     app: frontier-bot
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: frontier-bot
@@ -21,10 +21,10 @@ spec:
           ports:
             - containerPort: 8000
           resources:
-          limits:
-            memory: "2Gi" 
-          cpu: "200m"
-          requests:
-            memory: "1Gi"
-            cpu: "100m"
+            limits:
+              memory: "2Gi" 
+              cpu: "200m"
+            requests:
+              memory: "1Gi"
+              cpu: "100m"
           
