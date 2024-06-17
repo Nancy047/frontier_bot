@@ -19,4 +19,4 @@ spec:
         - name: frontier-bot
           image: ""
           ports:
-            - containerPort: 8999
+            - containerPort: 8080
