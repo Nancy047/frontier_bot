@@ -6,8 +6,8 @@ metadata:
 spec:
   ports:
   - name: http
-    port: 8000
-    targetPort: 8000
+    port: 8999
+    targetPort: 8999
     protocol: TCP
   selector:
     app: frontier-bot
