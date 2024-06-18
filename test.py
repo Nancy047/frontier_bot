@@ -53,15 +53,15 @@ def download_blob(bucket_name, source_blob_name, destination_file_name):
 
     print(f"Blob {source_blob_name} downloaded to {destination_file_name}.")
 
-csv_list = ["may_clearingcodes_dispositions_field_updated 1.csv", "may_dispatches_celonis_updated 1.csv", "may_dispositions_tso_updated 1.csv", "may_workflow_tso.csv", "result.csv"]
+csv_list = ["may_clearingcodes_dispositions_field_updated_notnull.csv", "may_dispatches_celonis_notnull.csv", "may_dispositions_tso_updated_notnull.csv", "may_workflow_tso_notnull.csv", "combined_notnull.csv"]
 for csv in csv_list:
     download_blob('frontier-data-csv', csv, csv)
 
-clearingcodes_df = pd.read_csv("may_clearingcodes_dispositions_field_updated 1.csv")
-dispatches_celonis_df = pd.read_csv("may_dispatches_celonis_updated 1.csv")
-disposition_tso_df = pd.read_csv("may_dispositions_tso_updated 1.csv")
-workflow_tso_df = pd.read_csv("may_workflow_tso.csv")
-hellox_df = pd.read_csv("result.csv")
+clearingcodes_df = pd.read_csv("may_clearingcodes_dispositions_field_updated_notnull.csv")
+dispatches_celonis_df = pd.read_csv("may_dispatches_celonis_notnull.csv")
+disposition_tso_df = pd.read_csv("may_dispositions_tso_updated_notnull.csv")
+workflow_tso_df = pd.read_csv("may_workflow_tso_notnull.csv")
+hellox_df = pd.read_csv("combined_notnull.csv")
 
 pai_agent = Agent(
     [clearingcodes_df, dispatches_celonis_df, disposition_tso_df, workflow_tso_df, hellox_df],
