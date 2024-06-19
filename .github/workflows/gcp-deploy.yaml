@@ -24,13 +24,13 @@ jobs:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
 
       - name: Build Docker image
-        run: docker build -t us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/b-ctl-047-artifact/${{ secrets.APP_NAME }}:${{ github.sha }} .
+        run: docker build -t us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/b-ctl-047-artifact/${{ secrets.APPLICATION_NAME }}:${{ github.sha }} .
 
       - name: Authenticate to Artifact Registry (gcloud)
         run: gcloud auth configure-docker us-central1-docker.pkg.dev
 
       - name: Push Docker image to Artifact Registry
-        run: docker push us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/b-ctl-047-artifact/${{ secrets.APP_NAME }}:${{ github.sha }}
+        run: docker push us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/b-ctl-047-artifact/${{ secrets.APPLICATION_NAME }}:${{ github.sha }}
 
       - name: Set up GKE credentials
         uses: google-github-actions/get-gke-credentials@v1
