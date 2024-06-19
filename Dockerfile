@@ -4,4 +4,4 @@ COPY . /app
 RUN pip install pandasai
 RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8000
-CMD ["python", "test.py"]
+CMD ["python", "llama_rag.py"]

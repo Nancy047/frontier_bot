@@ -1,0 +1,11 @@
+
+
+
+give me all the details associated with the customer wtn 2317804071
+
+, 9412961066, 9729857498, 7278190668
+
+
+generate graph indicating the distinct fault types and the corresponding cause type. a pie chart and labels (for the top 5 alone)
+
+give me all the case details of I-615378548

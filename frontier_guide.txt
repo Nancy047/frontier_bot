@@ -1,0 +1,52 @@
+How to restart your set-top box
+
+For help restarting your TV set-top box, follow these five steps.
+Unplug your set-top box’s power cord from the electrical outlet.
+Wait 15 seconds, then plug it back in to the electrical outlet.
+Turn on the set-top box and TV (ensure it’s on the correct input setting).
+Wait a few minutes while the Interactive Media Guide updates. Follow any on-screen instructions.
+Check to see if this resolves your issue. If it doesn't, the set-top box might need to be re-initialized. Please chat with us for help.
+
+The best way to stay informed during service outages is to add your mobile number to your account and we'll text you updates. Here’s how to add your number.
+
+Add your number in the MyFrontier app
+
+Sign in to the MyFrontier app.
+Select More from the bottom navigation menu, then My Account.
+Under Contact information, select Phone numbers.
+Tap Edit, then Add new number and add your mobile phone number.
+Select Next to validate your number with a security code.
+Select Done when verification is complete.
+Add your number in your Frontier account
+
+Sign in to your account and visit My Profile.
+Under Contact information, select the pencil icon then Add phone number.
+Add your phone number and check This is a mobile number.
+Click Verify to validate your number with a security code.
+Select Done when verification is complete.
+
+No outage? Check your router or equipment
+Often, the best way to troubleshoot internet issues is to restart or reboot your devices.
+Try restarting your router. Watch the video below or learn more.
+Fiber internet customers: If restarting your router doesn’t work, check the power to, or try restarting, your Optical Network Terminal (ONT). Learn how.
+Phone customers: Learn how to troubleshoot phone issues.
+
+Get outage updates
+The best way to stay informed during service outages is to add your mobile number to your account and we'll text you updates. Here’s how to add your number.
+
+Add your number in the MyFrontier app
+
+Sign in to the MyFrontier app.
+Select More from the bottom navigation menu, then My Account.
+Under Contact information, select Phone numbers.
+Tap Edit, then Add new number and add your mobile phone number.
+Select Next to validate your number with a security code.
+Select Done when verification is complete.
+Add your number in your Frontier account
+
+Sign in to your account and visit My Profile.
+Under Contact information, select the pencil icon then Add phone number.
+Add your phone number and check This is a mobile number.
+Click Verify to validate your number with a security code.
+Select Done when verification is complete.
+Note: If we already have your verified mobile number on file, you’re all set.
