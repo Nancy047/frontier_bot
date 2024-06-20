@@ -6,5 +6,5 @@ RUN pip install --upgrade pip
 RUN pip install pandasai
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 8000
+EXPOSE 8097
 CMD ["python", "llama_rag.py"]
